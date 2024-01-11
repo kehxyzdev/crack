@@ -3,7 +3,7 @@ local player = game.Players.LocalPlayer
 local allowedNames = {
     "jsjsjsjsjsjsixixisi",
 } -- Adicione os nomes permitidos aqui
-local isWhitelisted = false
+local isWhitelisted = true
 
 for _, allowedName in pairs(allowedNames) do
     if player.Name == allowedName then
